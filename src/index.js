@@ -1,3 +1,5 @@
+import './styles/style.scss'
+
 const collection = {
     school:20,
     collage:20,
