@@ -5,3 +5,10 @@ body{
     background-color: variable.$bg;
     color: var(--text);
 }
+
+.app{
+  text-align: center;
+}
+.list{
+    list-style: none;
+}
