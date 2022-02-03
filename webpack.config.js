@@ -18,7 +18,10 @@ module.exports = {
         }
       },
     mode: mode,
+    entry: "./src/index.js",
     output: {
+         // output path is required for `clean-webpack-plugin`
+         path: path.resolve(__dirname, "dist"),
         // this places all images processed in an image folder
         assetModuleFilename: "images/[hash][ext][query]",
       },
