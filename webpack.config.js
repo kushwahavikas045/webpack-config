@@ -29,7 +29,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: /\.[tj]sx?$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
@@ -58,6 +58,6 @@ module.exports = {
         port: 3000
     },
     resolve:{
-        extensions:[".js", ".jsx"],
+        extensions:[".js", ".jsx",".ts"],
     }
 }
